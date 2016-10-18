@@ -1,7 +1,7 @@
 package com.hit.edu.fristproject.model;
 import java.util.Vector;
 import com.hit.edu.firstproject.view.Element;
-import com.hit.edu.firstproject.view.view;
+//import com.hit.edu.firstproject.view.view;
 
 
 public class way1 {

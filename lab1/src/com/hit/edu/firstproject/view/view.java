@@ -10,6 +10,7 @@ public class view {
 		String str;
 		str=c.nextLine();
 		char ch=str.charAt(0);
+		c.close();
 		if(ch<48&&ch!=32&&ch!=9||ch>57&&ch<65||ch>90&&ch<97||ch>122)
 			return " ";
 		str.trim();
@@ -58,6 +59,7 @@ public class view {
 		String str;
 		str=c.nextLine();
 		String str_0="!simplify";
+		c.close();
 		if(str.length()<13)
 		{
 			flag=1;
@@ -138,6 +140,7 @@ public class view {
 		str=c.nextLine();
 		String str_0="!d/d";
 		String A[]=str.split(" ");
+		c.close();
 		if(str_0.equals(A[0])==true)
 		{
 			if(str_in.equals(A[1])==false)

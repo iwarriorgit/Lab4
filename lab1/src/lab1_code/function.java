@@ -89,6 +89,8 @@ public class function {
 			default:
 				break;
 			}
+			s.close();
+
 		}while(i!=-1);
 		
 	}
